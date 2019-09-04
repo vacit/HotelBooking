@@ -1,27 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace BookingSystem.Domain.Entity
+namespace BookingSystem.Domain.WebUI.Hotel
 {
-    public class HotelDefinition
+    public class HotelVM : IModel
     {
-
-        public HotelDefinition()
+        public HotelVM()
         {
-            this.IsActive = true;
             this.IsDeleted = false;
+            this.IsActive = false;
         }
 
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
+        [Required]
         public string Title { get; set; }
+        [Required]
         public string HotelUrl { get; set; }
+        [Required]
         public int HotelTypeId { get; set; }
-        public bool IsActive { get; set; }
         public bool IsDeleted { get; set; }
-
+        public bool IsActive { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using BookingSystem.Core.CustomException;
 using BookingSystem.Domain.Entity;
+using BookingSystem.Domain.WebUI.Hotel;
 using System;
 using System.Data.Entity;
 
@@ -35,6 +36,7 @@ namespace BookingSystem.Data.Context
         public DbSet<RoomType> RoomTypes { get; set; }
 
         public DbSet<HotelType> HotelTypes { get; set; }
+        public DbSet<Hotel> Hotels { get; set; }
 
         public DbSet<HotelRoomTypes> HotelRoomTypes { get; set; }
 

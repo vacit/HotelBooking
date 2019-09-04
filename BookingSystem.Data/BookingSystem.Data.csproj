@@ -54,6 +54,10 @@
     <Compile Include="Migrations\201909030002329_booking-homework.Designer.cs">
       <DependentUpon>201909030002329_booking-homework.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909041311392_aaa.cs" />
+    <Compile Include="Migrations\201909041311392_aaa.Designer.cs">
+      <DependentUpon>201909041311392_aaa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -70,10 +74,17 @@
       <Project>{8A99C402-7936-467F-916C-CCEB259E175F}</Project>
       <Name>BookingSystem.Domain.Entity</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BookingSystem.Domain.WebUI\BookingSystem.Domain.WebUI.csproj">
+      <Project>{A1043B1D-4BAB-4C5F-A01C-3183F791CEB0}</Project>
+      <Name>BookingSystem.Domain.WebUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201909030002329_booking-homework.resx">
       <DependentUpon>201909030002329_booking-homework.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909041311392_aaa.resx">
+      <DependentUpon>201909041311392_aaa.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

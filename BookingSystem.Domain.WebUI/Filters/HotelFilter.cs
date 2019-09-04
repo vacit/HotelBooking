@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 
 namespace BookingSystem.Domain.WebUI.Filters
 {
@@ -13,7 +8,7 @@ namespace BookingSystem.Domain.WebUI.Filters
         public string Name { get; set; }
 
         [DisplayName("Hotel Type")]
-        public int HotelTypeId { get; set; }
+        public int? HotelTypeId { get; set; }
 
     }
 }
