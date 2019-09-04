@@ -158,14 +158,6 @@ namespace BookingSystem.WebUI.Controllers
 
         #endregion HotelsMethods
 
-        #region HotelRoomTypesMethods
-
-        public ActionResult HotelRoomTypeList()
-        {
-            return View();
-        }
-
-        #endregion HotelRoomTypesMethods
 
     }
 }

@@ -1997,9 +1997,9 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\pages\Attributes\attributelist.js" />
     <Content Include="Scripts\pages\Dashboard\auditloglist.js" />
-    <Content Include="Scripts\pages\Hotel\hoteladd.js" />
-    <Content Include="Scripts\pages\Hotel\hoteledit.js" />
-    <Content Include="Scripts\pages\Hotel\hotellist.js" />
+    <Content Include="Scripts\pages\Hotels\hoteladd.js" />
+    <Content Include="Scripts\pages\Hotels\hoteledit.js" />
+    <Content Include="Scripts\pages\Hotels\hotellist.js" />
     <Content Include="Scripts\pages\HotelTypes\hoteltypeedit.js" />
     <Content Include="Scripts\pages\HotelTypes\hoteltypeadd.js" />
     <Content Include="Scripts\pages\HotelTypes\hoteltypelist.js" />
