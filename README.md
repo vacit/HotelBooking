@@ -1,8 +1,6 @@
-# MVC_Course_Booking Sample
+# MVC_Course_Booking
       
-      MVC DomainDrivenDesign Booking Sample
-
-# Neler Öğrendik ?
+      MVC DomainDrivenDesign Booking 
 
 # Design Pattern 
     
